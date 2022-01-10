@@ -1,0 +1,18 @@
+package com.example.movie.dto;
+
+import com.example.movie.entity.MovieEntity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class HomeContentDto {
+    private int id;
+    private List<MovieDto> listTrending;
+
+
+
+}
